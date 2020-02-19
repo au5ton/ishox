@@ -3,7 +3,7 @@
 # essentials
 apk update && \
 apk upgrade && \
-apk add git curl wget alpine-sdk
+apk add git wget alpine-sdk
 
 git clone https://github.com/shadowsocks/shadowsocks-libev.git /opt/shadowsocks-libev
 
