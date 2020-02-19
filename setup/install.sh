@@ -11,7 +11,7 @@ curl https://raw.githubusercontent.com/au5ton/ishox/master/setup/build.sh | sh
 apk update && \
 apk upgrade && \
 apk add bash bash-completion dialog && \
-git clone git@github.com:au5ton/ishox.git /root/ishox && \
+git clone https://github.com/au5ton/ishox.git /root/ishox && \
 cat /root/ishox/motd > /etc/motd && \
 ln -s /root/ishox/tether.sh /usr/local/bin/tether && \
 ln -s /root/ishox/setup/coutndown /usr/local/bin/countdown && \
