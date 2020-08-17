@@ -14,7 +14,7 @@ apk add bash bash-completion dialog && \
 git clone https://github.com/au5ton/ishox.git /root/ishox && \
 cat /root/ishox/motd > /etc/motd && \
 ln -s /root/ishox/tether.sh /usr/local/bin/tether && \
-ln -s /root/ishox/setup/coutndown /usr/local/bin/countdown && \
+ln -s /root/ishox/setup/countdown /usr/local/bin/countdown && \
 printf "${GREEN}Installation complete, terminal will close in 1 minute. Open again to start using.${NC}" && \
 countdown 60 && \
 exit
